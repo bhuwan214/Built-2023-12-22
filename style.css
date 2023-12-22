@@ -20,6 +20,7 @@ html,body{
     height: 100%;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .aside{
@@ -37,19 +38,18 @@ align-items: center;
 color: white;
 
 }
-
-/* .black-box{
+ .black-box{
     background-color: black;
     width: 26%;
-    /* min-width: 360px; */
+      min-width: 330px; 
     height: 100%; 
-} */
-/* 
+} 
+
 .content-container{
     background-color: gray;
     width: 65%;
     height: 100%; 
-} */
+} 
 
 
 .aside>a>li{
