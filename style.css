@@ -2,7 +2,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&family=Questrial&family=Raleway:wght@400;500;600;700&display=swap");
 
-
 * {
   margin: 0;
   padding: 0;
@@ -45,7 +44,7 @@ body {
 }
 
 .content-container {
-  background-color: rgb(205, 69, 69);
+  background-color: rgb(255, 255, 255);
   width: 70%;
   height: 100%;
 }
@@ -71,11 +70,11 @@ body {
 }
 
 .img-box {
-    background-image: url(resources/profile.png);
-    background-size: 335px;
-    background-repeat: no-repeat;
-    background-position-x:-60px;
-    
+  background-image: url(resources/profile.png);
+  background-size: 335px;
+  background-repeat: no-repeat;
+  background-position-x: -60px;
+
   position: relative;
   background-color: gray;
   width: 250px;
@@ -84,34 +83,97 @@ body {
   left: 15px;
 }
 
-.description{
-
-position: relative;
-  top: 32vh;
+.description {
+  position: relative;
+  width: 400px;
+  top: 26vh;
   left: 12vw;
 }
 
-.line{
+.line {
   background-color: rgb(49, 48, 48);
   height: 100px;
   width: 3px;
 }
- .text{
+.text {
   padding-top: 18px;
-   width: 400px;
+  width: 400px;
   padding-left: 16px;
   position: relative;
-font-family: "Montserrat", sans-serif;
-color: rgb(42, 40, 40);
-font-size:17px;
-  
-} 
+  font-family: "Montserrat", sans-serif;
+  color: rgb(42, 40, 40);
+  font-size: 17px;
+}
 
-.text>h2{
+.text > h2 {
+  
   padding-left: 3px;
-font-size: 18px;
-color: rgb(42, 40, 40);
+  font-size: 18px;
+  color: rgb(42, 40, 40);
+}
+
+button {
+  position: relative;
+  top: 35vh;
+  left: 12.5vw;
+width: 160px;
+height: 44px;
+ font-family: "Montserrat" ,sans-serif;
+ text-transform: uppercase;
+ border: solid black 2px;
+ margin: 0px 20px;
+ background-color: white;
+ cursor: pointer;
+
+
+
+}
+
+button:hover{
+  color: white;
+  background-color: rgb(24, 23, 23);
+}
+
+.learn{
+  background-color: black;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  top:15px;
+  right: 15px;
+  font-family:"Montserrat" ,sans-serif;
+  text-transform: capitalize;
+  line-height: 60px;
+  
+
 }
 
 
+.social{
+  position: relative;
+top:64vh ;
+left: 0px;
 
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 22px;
+  height: 40px;
+  width: 200px;
+  
+}
+
+.social>a>li{
+  list-style: none;
+} 
+
+
+.social>a>li>img{
+  height: 20px;
+  width: 20px;
+
+
+}
