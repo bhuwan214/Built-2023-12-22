@@ -40,14 +40,13 @@ body {
 }
 .black-box {
   background-color: black;
-
-  width: 380px;
+  width: 350px;
   height: 100%;
 }
 
 .content-container {
-  background-color: white;
-  width: 65%;
+  background-color: rgb(205, 69, 69);
+  width: 70%;
   height: 100%;
 }
 
@@ -68,7 +67,7 @@ body {
   width: 250px;
   height: 250px;
   top: 27%;
-  right: -17vw;
+  right: -15vw;
 }
 
 .img-box {
@@ -89,24 +88,30 @@ body {
 
 position: relative;
   top: 32vh;
-  left: 180px;
+  left: 12vw;
 }
 
 .line{
-  background-color: black;
+  background-color: rgb(49, 48, 48);
   height: 100px;
   width: 3px;
 }
  .text{
   padding-top: 18px;
-   width: 300px;
+   width: 400px;
   padding-left: 16px;
   position: relative;
 font-family: "Montserrat", sans-serif;
-color: black;
-font-size:15px;
-
+color: rgb(42, 40, 40);
+font-size:17px;
   
 } 
+
+.text>h2{
+  padding-left: 3px;
+font-size: 18px;
+color: rgb(42, 40, 40);
+}
+
 
 
