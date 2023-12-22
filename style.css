@@ -12,6 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
+  overflow: hidden;
 }
 
 .main-container {
@@ -85,7 +86,7 @@ body {
 
 .description {
   position: relative;
-  width: 40vw;
+   width: 40vw; 
   top: 26vh;
   left: 12vw;
 }
@@ -206,14 +207,17 @@ button {
   }
 
 
-@media (max-width:850){
+@media (max-width:875){
+  
   .description{
+    text-align: center;
     width: 200px;
   }
   h1{
     width: 200px;
   }
   .line{
+
     height: 150px;
   }
 } 
