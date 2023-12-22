@@ -28,18 +28,39 @@ html,body{
     max-width:150px ;
     min-width: 80px;
     height: 100%;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 50px;
+justify-content: center;
+align-items: center;
+color: white;
 
 }
 
-.black-box{
+/* .black-box{
     background-color: black;
     width: 26%;
     /* min-width: 360px; */
     height: 100%; 
-}
-
+} */
+/* 
 .content-container{
     background-color: gray;
     width: 65%;
     height: 100%; 
+} */
+
+
+.aside>a>li{
+    list-style: none;
+}
+
+.aside>a>li>img{
+    filter: grayscale(1) invert(1);
+    position: relative;
+    height: 25px;
+    width: 25px;
+
+
 }
