@@ -18,7 +18,7 @@ body {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 20px;
+  gap: 15px;
 }
 
 .aside {
@@ -61,7 +61,7 @@ body {
 
 .profile-box {
   position: relative;
-  background-color: gray;
+  background-color: rgb(255, 255, 255);
   width: 250px;
   height: 250px;
   top: 27%;
@@ -69,10 +69,17 @@ body {
 }
 
 .img-box {
+    background-image: url(resources/profile.png);
+    background-size: 335px;
+    background-repeat: no-repeat;
+    background-position-x:-60px;
+    
   position: relative;
-  background-color: rgb(183, 21, 21);
+  background-color: gray;
   width: 250px;
   height: 250px;
   top: -15px;
   left: 15px;
 }
+
+
