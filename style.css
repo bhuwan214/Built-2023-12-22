@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .main-container {
@@ -187,37 +187,64 @@ left: 0px;
     left: 16vw;
 
   }
-
+  button {
+    margin:0 10px;
+    width: 130px ;
+  }
  
-button {
-  margin:0 10px;
-  width: 140px ;
-}
 
-.social{
-  top:73vh;
-}
- h1{
-  font-size: 30px;
- }
 
- h2{
-  font-size: 20px;
- }
+  @media (max-width:800px){
+  .main-container{
+   
+ 
+    display: flex;
+    flex-direction: column;
+gap:10;
+
   }
+ 
 
-
-@media (max-width:875){
+  .aside{
   
-  .description{
-    text-align: center;
-    width: 200px;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 40px;
+    background-color: black;
+    min-height: 50px;
+    max-height: 60px;
+ 
+    min-width: 100%;
+    
   }
-  h1{
-    width: 200px;
+  .black-box{
+    top: 0px;
+    
+    width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+    background-color: rgb(57, 57, 62);
   }
-  .line{
 
-    height: 150px;
+  .learn{
+    background-color: none;
+    position: absolute;
+    top: 0px;
   }
-} 
+
+  .content-container{
+    background-color: aquamarine;
+    width: 100%;
+  }
+   
+  
+
+  }
+
+
+
+
+}
