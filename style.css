@@ -285,6 +285,9 @@ left: 50vw;
 
  }
   
+h1{
+  max-width: 400px;
+}
 
   }
 
@@ -307,15 +310,15 @@ left: 50vw;
    }
 
 .profile-box{
-  background-color: aquamarine;
+
   width: 90vw;
-  height: 85vw;
+  height: 80vw;
 }
 
 .img-box{
   position: absolute;
-  height:90vw ;
-  width: 90vw;
+  height:80vw ;
+  width: 88vw;
   top: -20px;
   left: 0px;
   background-position: center;
@@ -323,7 +326,7 @@ left: 50vw;
 
 .description{
   position: relative;
-  top: -50px;
+  top: -45px;
   left: 0px;
   margin-left: 20px;
 
@@ -332,22 +335,29 @@ left: 50vw;
 button{
   width: 160px;
   position:relative;
-  top:15vh;
-  left: 15vw;
+  top:14vh;
+  left: 20vw;
   margin-bottom: 20px;
 
 }
 .content-container{
-height: 40vh;
+height:800px;
 }
 
 .social{
   position: relative;
-top: 40vh;
-left: 35vw;
+top: 12vh;
+left:4vw;
 padding-bottom: 20px;
 }
 
+h1{
+  width: 400px;
+}
+
+.aside{
+  gap: 35px;
+}
 
 
 
