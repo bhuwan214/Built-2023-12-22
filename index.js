@@ -80,6 +80,7 @@ gsap.from(".nav ",{
     scale:1.5,
 })
 
+
 gsap.from(".headname >h3 ",{
     x:200,
     duration:2,
