@@ -194,7 +194,12 @@ left: 0px;
  
 
 
-  @media (max-width:800px){
+ 
+
+
+}
+
+@media (max-width:800px){
   .main-container{
    
  
@@ -220,13 +225,9 @@ gap:10;
     
   }
   .black-box{
-    top: 0px;
-    
+   
     width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-    background-color: rgb(57, 57, 62);
+    background-color: white;
   }
 
   .learn{
@@ -238,13 +239,48 @@ align-items: center;
   .content-container{
     background-color: aquamarine;
     width: 100%;
+    height: ;
   }
    
+  .profile-box{
+     position: relative;
+ top:30px;
+ left: 30px;
+ height: 300px;
+ width: 300px;
+ /*
+ width: 91.5%;
+ height: 50vh; */
+background-color: rgb(255, 255, 255);
+  }
+
+  .img-box{
+ height: 300px;
+ width: 300px;
+  background-size: cover;
+   
+
+  }
+
+  .description{
+    position: absolute;
+    top: 160px;
+  left: 55vw;
+  
+  }
+ .line{ 
+  height: 150px;
+ }
+ 
+
+ button{
+  position:realtive;
+  top: -10vh;
+left: 50vw;
+ }
+ .social{
+  
+ }
   
 
   }
-
-
-
-
-}
