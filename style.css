@@ -292,9 +292,66 @@ left: 50vw;
   @media (max-width:700px){
 
     .description{
+      
       left: 60vw;
     }
   }
   
   /* Mobile view */
-  @media (max-width:575)
+ 
+
+  @media (max-width:600px){
+   .line{
+  height: 0px;
+  
+   }
+
+.profile-box{
+  background-color: aquamarine;
+  width: 90vw;
+  height: 85vw;
+}
+
+.img-box{
+  position: absolute;
+  height:90vw ;
+  width: 90vw;
+  top: -20px;
+  left: 0px;
+  background-position: center;
+}
+
+.description{
+  position: relative;
+  top: -50px;
+  left: 0px;
+  margin-left: 20px;
+
+}
+
+button{
+  width: 160px;
+  position:relative;
+  top:15vh;
+  left: 15vw;
+  margin-bottom: 20px;
+
+}
+.content-container{
+height: 40vh;
+}
+
+.social{
+  position: relative;
+top: 40vh;
+left: 35vw;
+padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+  }
