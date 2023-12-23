@@ -64,22 +64,22 @@ body {
 .profile-box {
   position: relative;
   background-color: rgb(255, 255, 255);
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   top: 27%;
-  right: -15vw;
+  right: -10vw;
 }
 
 .img-box {
   background-image: url(resources/profile.png);
-  background-size: 335px;
+  background-size: 400px;
   background-repeat: no-repeat;
   background-position-x: -60px;
 
   position: relative;
   background-color: gray;
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   top: -15px;
   left: 15px;
 }
@@ -154,7 +154,7 @@ button:hover{
 
 .social{
   position: relative;
-top:64vh ;
+top:67vh;
 left: 0px;
   display: flex;
   justify-content: center;
@@ -248,9 +248,9 @@ gap:10;
  left: 30px;
  height: 300px;
  width: 300px;
- /*
- width: 91.5%;
- height: 50vh; */
+ 
+ /* width: 91.5%;
+ height: 50vh; */ 
 background-color: rgb(255, 255, 255);
   }
 
@@ -274,19 +274,19 @@ background-color: rgb(255, 255, 255);
  
 
  button{
-  position:realtive;
-  top: -10vh;
-left: 50vw;
+ position: relative;
+  top:-20px;
+left: 300px;
  }
  .social{
-  position: relative;
-  top: 10px;
+  position: absolute;
+  top: 400px;
   left: 50px;
 
  }
   
 h1{
-  max-width: 400px;
+  max-width: 350px;
 }
 
   }
@@ -298,6 +298,10 @@ h1{
       
       left: 60vw;
     }
+
+    .social{
+
+    }
   }
   
   /* Mobile view */
@@ -307,6 +311,11 @@ h1{
    .line{
   height: 0px;
   
+   }
+
+   .black-box{
+    width: 90vw;
+    height: 80vw;
    }
 
 .profile-box{
@@ -336,7 +345,7 @@ button{
   width: 160px;
   position:relative;
   top:14vh;
-  left: 20vw;
+  left: 5%;
   margin-bottom: 20px;
 
 }
@@ -348,18 +357,21 @@ height:800px;
   position: relative;
 top: 12vh;
 left:4vw;
-padding-bottom: 20px;
+padding-bottom: 10px;
+padding-top:10px !important;
 }
 
 h1{
-  width: 400px;
+  width: 350px;
 }
 
+h2{
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
 .aside{
   gap: 35px;
 }
-
-
 
 
 
