@@ -184,6 +184,14 @@ left: 0px;
   display: none;
 }
 
+.nav{
+
+  display: none;
+  background-color: black;
+  max-width: 150px;
+  min-width: 80px;
+  height: 100%;
+}
 
 
 
@@ -198,9 +206,6 @@ left: 0px;
     margin:0 10px;
     width: 130px ;
   }
- 
-
-
  
 
 
@@ -231,12 +236,23 @@ gap:10;
     min-width: 100%;
     
   }
+
+
   .black-box{
    
     width: 100%;
     background-color: white;
   }
+.nav{  
+  
+  padding-left: 40px;
+  background-color: black;
+  min-height: 50px;
+  max-height: 60px;
 
+  min-width: 100%;
+  
+}
   .learn{
     background-color: none;
     position: absolute;
@@ -381,11 +397,17 @@ h2{
   }
 
   @media (max-width:450px){
-.aside>a{
+.aside{
   display: none;
 }
+
+
 .learn{
   display: none;
+}
+.nav{
+  display: flex;
+  background-color: black;
 }
  
 .ham-menu ,.headname {
@@ -411,13 +433,12 @@ h2{
 background-color: rgb(255, 255, 255);
 width: 25px;
 
-
-
 }
 
 .headname>h3{
 
   position:absolute;
+  
   color: white;
 padding: 15px 12px;
   font-size : 20px;
@@ -433,6 +454,9 @@ padding: 15px 12px;
       width: 100px;
     }
 
+    .headname{
+      display: contents;
+    }
   
     .social{
       top: 142px;

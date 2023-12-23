@@ -15,6 +15,7 @@ gsap.from(".img-box",{
     opacity:0,
 
 })
+
 gsap.from("h2",{
     x:800,
     duration:2,
@@ -46,6 +47,15 @@ gsap.from(".line",{
     scale:1.5,
 })
 
+gsap.from(".ham-menu",{
+    x:-400,
+    duration:2,
+    delay:0.5,
+    rotate:720,
+    scale:1,
+})
+
+
 gsap.from(".social",{
     y:50,
     duration:2,
@@ -55,6 +65,22 @@ gsap.from(".social",{
 })
 
 gsap.from(".aside ",{
+    x:200,
+    duration:2,
+    delay:0.5,
+    opacity:0,
+    scale:1.5,
+})
+
+gsap.from(".nav ",{
+    x:200,
+    duration:2,
+    delay:0.5,
+    opacity:0,
+    scale:1.5,
+})
+
+gsap.from(".headname >h3 ",{
     x:200,
     duration:2,
     delay:0.5,
